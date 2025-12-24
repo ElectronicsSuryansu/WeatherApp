@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import cloud from "./assets/cloud.png";
 
 function App() {
   const [city,setCity] = useState("");
@@ -63,7 +64,9 @@ function App() {
       
 
       }
-
+    <div className="img">
+      <img src={cloud} alt='cloud' />
+    </div>
 
     </>
   )
